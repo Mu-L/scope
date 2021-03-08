@@ -27,17 +27,17 @@ OSS Scope has no user concept, this is only available in Weave Cloud. To limit t
   arguments:
 
   ```cli
-  -app.basicAuth
+  --app.basicAuth
         Enable basic authentication for app
-  -app.basicAuth.password string
+  --app.basicAuth.password string
         Password for basic authentication (default "admin")
-  -app.basicAuth.username string
+  --app.basicAuth.username string
         Username for basic authentication (default "admin")
-  -probe.basicAuth
+  --probe.basicAuth
         Enable basic authentication for app
-  -probe.basicAuth.password string
+  --probe.basicAuth.password string
         Password for basic authentication (default "admin")
-  -probe.basicAuth.username string
+  --probe.basicAuth.username string
         Username for basic authentication (default "admin")
   ```
 
