@@ -15,7 +15,7 @@ the YAML manifests from `cloud.weave.works`.
 
 ## Disabling Scope Write Access
 
-Can be done by using the `probe.no-controls` option and set it to false for the scope agents. This can be done in the scope deployment manifest under the `weave-scope-agent`'s argument section with `—probe.no-controls=true`.
+Can be done by using the `probe.no-controls` option and set it to false for the scope agents. This can be done in the scope daemonset manifest under the `weave-scope-agent`'s argument section with `--probe.no-controls=true`.
 
 ## RBAC and Weave Scope OSS
 
